@@ -20,7 +20,7 @@ const Contactform = () => {
       <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-6">
         <h1 className="text-2xl font-bold mb-6 text-center">React Hook Form</h1>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-          {/* Name Field */}
+    
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700">
               Name
@@ -35,7 +35,7 @@ const Contactform = () => {
             {errors.name && <p className="mt-1 text-sm text-red-500">{errors.name.message}</p>}
           </div>
 
-          {/* Email Field */}
+         
           <div>
             <label htmlFor="email" className="block text-sm font-medium text-gray-700">
               Email
@@ -57,7 +57,7 @@ const Contactform = () => {
             {errors.email && <p className="mt-1 text-sm text-red-500">{errors.email.message}</p>}
           </div>
 
-          {/* Password Field */}
+         
           <div>
             <label htmlFor="password" className="block text-sm font-medium text-gray-700">
               Password
@@ -81,7 +81,7 @@ const Contactform = () => {
             )}
           </div>
 
-          {/* Phone Number Field */}
+          
           <div>
             <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
               Phone Number
@@ -103,7 +103,7 @@ const Contactform = () => {
             {errors.phone && <p className="mt-1 text-sm text-red-500">{errors.phone.message}</p>}
           </div>
 
-          {/* Message Field */}
+        
           <div>
             <label htmlFor="message" className="block text-sm font-medium text-gray-700">
               Message
@@ -121,7 +121,7 @@ const Contactform = () => {
             )}
           </div>
 
-          {/* Submit Button */}
+      
           <button
             type="submit"
             className="w-full py-2 px-4 bg-green-800 text-white font-bold rounded-md shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-offset-2"
