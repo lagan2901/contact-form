@@ -16,7 +16,7 @@ const Contactform = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-pink-200">
+    <div className="flex justify-center items-center h-screen bg-pink-100">
       <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-6">
         <h1 className="text-2xl font-bold mb-6 text-center">React Hook Form</h1>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
